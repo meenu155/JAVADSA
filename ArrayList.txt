@@ -13,7 +13,9 @@ public class Arrlist {
         names.addAll(newlist);
         System.out.println(names);
         System.out.println(names.get(2));
-
+//names.remove(1);
+        names.remove(String.valueOf("Aarohi"));
+        System.out.println(names);
 
     }
 
