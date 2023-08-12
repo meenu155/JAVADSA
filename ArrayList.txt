@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+public class Arrlist {
+    public static void main(String args[]) {
+        ArrayList<String> names = new ArrayList<>();
+        ArrayList<String> newlist=new ArrayList<>();
+        names.add("Ria");
+        names.add("Ram");
+        newlist.add("Karan");
+        int size = names.size();
+        names.add(1,"Aarohi");
+        System.out.println("Size of the ArrayList: " + size);
+        System.out.println(names);
+        names.addAll(newlist);
+        System.out.println(names);
+        System.out.println(names.get(2));
+
+
+    }
+
+
+}
+
